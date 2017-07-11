@@ -1,0 +1,69 @@
+body{behavior:url("/csshover3.htc");}
+/* .png, .logo, .shadow, .hideBlockOuterWrapper, .hideLink a, #footerWrapper,
+.searchBlock .textbox, .table-container .top, .table-container .bottom{
+	behavior: url(/iepngfix.htc)
+} */
+.table-container .table-outer-wrapper{
+}
+.mainNav ul{
+    zoom:1;
+}
+.eBank a, .aboutBank a{
+    position:static;
+}
+.searchBlock .btnSearch{
+}
+.hideBlock .leftCol{
+    height:135px;
+}
+.hideBlock{
+    width:954px;
+    background: url(/img/bgHideBlock.png) 0 0 no-repeat !important;
+}
+.hideBlock .borderColumn, .popUp .all-services-popup .borderColumn{
+    height:80px;
+}
+.howToShow{
+    margin-left:0 !important;
+}
+.cityChange .greyRunner{
+    margin-left:7px;
+}
+.yearsBlock{
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/bgYearsRunnerWrapper.png');
+}
+.questionBlock{
+    height:175px;
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/bgQuestionBlock.png');
+}
+.vaInner {
+    top:50%; left:0;
+}
+.vaInner img{
+    top:-50%;
+    position:relative;
+}
+.depositInfo{
+    height:390px;
+}
+.mortgageIntro{
+    height:280px;
+}
+.mortgageCalcIco{
+    background-position:100px 0;
+}
+.close{
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/close.png');
+}
+.dalcomLogo{
+    margin-rigth:15px;
+}
+#footerWrapper{
+    padding-top:0;
+}
+.hideLink{
+    zoom:1;
+}

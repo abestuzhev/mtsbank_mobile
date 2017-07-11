@@ -1,0 +1,33 @@
+.miniSearchWrapper css3-container background group2 *{
+    clip:rect(1.5px, 149px, 31px, 0) !important;
+}
+.mainNavWrapper css3-container background group2 *{
+    clip:rect(1.5px, 815px, 31px, 0px) !important;
+}
+.miniSearchWrapper{
+    padding-left:2px;
+}
+#article ol{
+    position:relative;
+}
+#article ol li{
+    display:list-item !important;
+}
+.bannerWrapper .inputtext input{
+    padding-top:8px;
+    padding-bottom:5px;
+    height:17px;
+}
+.bannerWrapper css3-container{
+    top:75px !important;
+    left:479px !important;
+    position:absolute;
+}
+.indexPromoBlock.dalcombank .links{
+    padding-top: 11px;
+}
+
+#mts-money #footerWrapper:before
+{
+    background: none !important;
+}

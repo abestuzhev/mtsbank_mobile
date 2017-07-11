@@ -1,0 +1,845 @@
+#article fieldset{
+	position:relative;
+	z-index:1000000;
+}
+/*=text======================================================*/
+.jqTransformInputWrapper {
+    background: transparent url(/img/inputTextRight.png) no-repeat top right;
+    height: 39px;
+    padding: 0px;
+}
+.doubleLeft{
+	float:left;
+}
+.doubleLeft .jqTransformInputWrapper {
+	background: transparent url(/img/inputTextCode.png) right 2px no-repeat;
+}
+
+.doubleLeft .jqTransformInputInner{
+	margin-right:14px !important;
+}
+.doubleRight{
+	margin-left:-7px;
+	float:left;
+	position:relative;
+	z-index:1;
+}
+.jqTransformInputInner {
+    background: transparent url(/img/inputTextLeft.png) no-repeat left top;
+    padding-right: 10px;
+    margin: 0px 10px 0 0;
+}
+.jqTransformInputInner div {
+    height: 39px;
+    margin: 0px 0px 0px 15px;
+}
+
+.jqTransformInputInner div input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px !important;
+    line-height: 18px;
+    vertical-align: middle;
+    height: 34px;
+    color: #7a7a7a;
+    border: none;
+    padding: 3px 0px 0px 0px;
+    margin: 0px;
+    background: transparent;
+}
+
+/*  IE6 */ * html .jqTransformInputInner div input {
+    padding: 6px 0 0 0;
+    margin: 0 -20px 0 -8px;
+    height: 24px;
+    position: relative;
+}
+
+/* Ie7 */ * + html .jqTransformInputInner div input {
+    padding: 9px 0 0 0;
+    margin-left: -10px;
+    height: 21px;
+}
+.jqTransformInputInner div input{
+	padding: 11px 0 0 0\0/;
+    height: 19px\0/;
+}
+/*focus*/
+.jqTransformInputWrapper_focus {
+    background-position: right -39px;
+}
+
+.jqTransformInputWrapper_focus div.jqTransformInputInner {
+    background-position: left -113px;
+}
+
+.errorInput .jqTransformInputWrapper_focus, .required .jqTransformInputWrapper_focus{
+    background-position: top right !important; 
+}
+.doubleLeft .jqTransformInputWrapper_focus{
+	background-position:right 2px !important;
+}
+.doubleRight .jqTransformInputWrapper_focus{
+	background-position:right 0px;
+}
+.doubleLeft .jqTransformInputWrapper_focus .jqTransformInputInner, .doubleRight .jqTransformInputWrapper_focus .jqTransformInputInner{
+	background-position:0 0;
+}
+.required .jqTransformInputInner {
+    background-position: left -37px !important;
+}
+
+.errorInput .jqTransformInputInner {
+    background-position: left -74px !important;
+}
+
+.errorInput .jqTransformInputInner input {
+    color: #8e1e09 !important;
+}
+
+/*=select======================================================*/
+.jqTransformSelectWrapper {
+    width: 45px;
+    left: 2px;
+    position: relative;
+    height: 35px;
+    background: url(/img/selectLeft.png) no-repeat top left;
+    float: left;
+}
+
+.jqTransformSelectWrapper div span {
+    font-size: 14px;
+    float: none;
+    position: absolute;
+    white-space: nowrap;
+    height: 27px;
+    line-height: 15px;
+    padding: 10px 0 0 15px;
+    overflow: hidden;
+    cursor: pointer;
+	color:#7a7a7a;
+	border:none !important;
+}
+
+.jqTransformSelectWrapper a.jqTransformSelectOpen {
+    display: block;
+    position: absolute;
+    right: -27px;
+    width: 27px;
+    height: 35px;
+	border:none !important;
+	float:none;
+    background: url(/img/selectRight.png) no-repeat center center;
+}
+
+div .jqTransformSelectWrapper ul {
+    position: absolute;
+    width: 43px;
+    top: 35px;
+    left: 0px;
+    margin: 0 !important;
+    list-style: none;
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    display: none;
+    padding: 0px !important;
+    height: 150px;
+    overflow: auto !important;
+    overflow-y: auto !important;
+    z-index: 100;
+}
+
+.jqTransformSelectWrapper li, .depositCalc .jqTransformSelectWrapper li {
+    margin: 0 !important;
+	float:none !important;
+}
+
+.jqTransformSelectWrapper ul a {
+    width:auto !important;
+	display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #606060 !important;
+    background-color: #FFF;
+    font-size: 14px;
+	border:none !important;
+}
+
+.jqTransformSelectWrapper ul a.selected {
+    background: #EDEDED;
+    color: #606060 !important;
+}
+
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+    background: #EDEDED;
+    color: #000 !important;
+}
+
+.required .jqTransformSelectWrapper {
+    background-position: left -35px !important;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-mm textarea {
+    font-size: 14px;
+    line-height: 16px;
+	 color: #404040;
+}
+
+/*=textarea======================================================*/
+table.jqTransformTextarea td {
+    font-size: 1px;
+    line-height: 1px;
+    margin: 0;
+    padding: 0 !important;
+}
+
+table.jqTransformTextarea {
+	margin-bottom:0 !important;
+}
+
+table.jqTransformTextarea tr {
+    /*border: 1px solid red;*/
+}
+
+table.jqTransformTextarea textarea {
+    margin: 0;
+    padding-left: 10px;
+    border: 0;
+    background: none;
+	color:#1A1A1A;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-tl {
+    width:6px; height:10px;
+	background: url(/img/textarea-tl.png) no-repeat top left !important;
+}
+.required table.jqTransformTextarea td#jqTransformTextarea-tl {
+	 background-position:0 -10px !important; 
+}
+table.jqTransformTextarea td#jqTransformTextarea-tm {
+	background: url(/img/textarea-tm.png) repeat-x top left !important;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-tr {
+	width:6px; height:10px;
+    background: url(/img/textarea-tr.png) no-repeat top left !important;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-ml {
+    background: url(/img/textarea-ml.png) repeat-y top left !important;
+}
+.required table.jqTransformTextarea td#jqTransformTextarea-ml {
+    background-position:0 -200px !important;
+	background-color:#348907 !important;
+}
+table.jqTransformTextarea td#jqTransformTextarea-mm {
+    background: #e9e9e9 url(/img/textarea-mm.png) repeat-x !important;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-mr {
+	padding-right:2px !important;
+	background: url(/img/textarea-mr.png) top left no-repeat !important;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-bl {
+	width:6px; height:6px;  
+    background: url(/img/textarea-bl.png) no-repeat top left !important;
+}
+.required table.jqTransformTextarea td#jqTransformTextarea-bl {
+    background-position:0 -6px !important;
+}
+table.jqTransformTextarea td#jqTransformTextarea-bm {
+    background: url(/img/textarea-bm.png) repeat-x top left !important;
+}
+
+table.jqTransformTextarea td#jqTransformTextarea-br {
+	width:6px; height:6px; 
+    background: url(/img/textarea-br.png) no-repeat top left !important;
+}
+
+/*hover*/
+/* table.jqTransformTextarea-hover td#jqTransformTextarea-tl{background-position:0px -5px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-tm{background-position:0px -5px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-tr{background-position:0px -5px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-ml{background-position:-5px 0px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-mm{background-image: url(/img/textarea-mm-hover.png);}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-mr{background-position:-5px 0px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-bl{background-position:0px -5px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-bm{background-position:0px -5px;}
+ table.jqTransformTextarea-hover td#jqTransformTextarea-br{background-position:0px -5px;} */
+/*focus*/
+/* table.jqTransformTextarea-focus td#jqTransformTextarea-tl{background-position:0px -10px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-tm{background-position:0px -10px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-tr{background-position:0px -10px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-ml{background-position:-10px 0px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-mm{background-image: url(/img/textarea-mm-focus.png);}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-mr{background-position: -10px 0px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-bl{background-position:0px -10px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-bm{background-position:0px -10px;}
+ table.jqTransformTextarea-focus td#jqTransformTextarea-br{background-position:0px -10px;} */
+table.jqTransformTextarea .jqTransformSafariTextarea div {
+    position: relative;
+    overflow: hidden;
+    border: 0px solid red;
+}
+
+table.jqTransformTextarea .jqTransformSafariTextarea textarea {
+    background: none;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 10px 10px 10px 20px;
+    resize: none;
+}
+
+/*=radio======================================================*/
+.jqTransformRadioWrapper {
+	float: left;
+	display:block;
+	margin-right:9px;	
+}
+.jqTransformRadio {
+	background: transparent url(/img/radio.png) no-repeat 0 -18px;
+	vertical-align: middle;
+	height: 18px;
+	width: 18px;
+	display:block;
+}
+.jqTransformChecked{
+	background-position:0 0 !important;
+}
+.disable .jqTransformRadio{
+	background-position:0 -36px !important;
+}
+/*=checkbox======================================================*/
+span.jqTransformCheckboxWrapper{
+	display:block;
+	float:left;
+	margin-top:1px;
+	margin-right:5px;
+}
+a.jqTransformCheckbox {
+	background: transparent url(/img/checkbox.png) 0 -12px no-repeat;
+	vertical-align: middle;
+	height: 12px;
+	width: 13px;
+	display:block;
+}
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {
+    display: none;
+}
+
+/*=============================================================*/
+.form ul {
+    margin: 0 !important;
+}
+
+/*=Резюме======================================================*/
+.formSendResume {
+	padding-left:20px;
+}
+.formSendResume label {
+    font-size: 14px;
+    text-align: right;
+}
+
+.formSendResume td {
+    padding: 0 0 7px 20px;
+}
+.formSendResume table table td {
+    padding: 0;
+}
+.formSendResume .last td {
+    vertical-align: top;
+}
+.formSendResume .td1 {
+    vertical-align: middle;
+    text-align: right;
+}
+.formSendResume .small{
+	color:#606060;
+	float:right;
+}
+.formSendResume .fileWrapper {
+	padding-right:55px;
+}
+.formSendResume .fileWrapper .small{ 
+	padding:5px 0 0 0;
+}
+.formSendResume .td1 .small{
+	margin-top:-15px;
+}
+.formSendResume .textbox {
+    width: 240px !important;
+}
+
+.formSendResume select {
+    width: 191px;
+}
+.formSendResume textarea{
+	width:465px; height:125px;
+}
+.file{
+	width:219px; height:35px;
+	padding-left:15px;
+	color:#7A7A7A;
+	float:left;
+	background:transparent url(/img/inputTextLeft.png) 0 -2px no-repeat;
+	border:none;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px !important;
+	_height:27px;
+	_padding-top:8px;
+}
+.fileWrapper{
+	position:relative;
+}
+.formSendResume .fileWrapper div{
+	left:219px;
+}
+.formSendResume .doubleLeft{
+	width:70px;
+}
+.formSendResume .doubleLeft .jqTransformInputWrapper {
+	width:70px !important; 
+}
+.formSendResume .doubleLeft .jqTransformInputWrapper .textbox{
+	width:40px !important;
+}
+.formSendResume .doubleRight{
+	width:185px;
+}
+.formSendResume .doubleRight .jqTransformInputWrapper {
+	width:185px !important; 
+}
+.formSendResume .doubleRight .jqTransformInputWrapper .textbox{
+	width:162px !important;
+}
+.formSendResume .jqTransformButton{
+	margin:0 16px 0 185px;
+}
+/*.jqTransformButton, .formDepositCalc .btn{
+	width:230px;
+	padding:7px 0 7px;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif !important;
+	background: url(/img/bgBtnGreen.png) repeat-x;
+	border:none;
+	cursor:pointer;
+	behavior:url(/pie.htc);
+    -moz-border-radius:6px;
+    -khtml-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+	position:relative;
+}/*
+/*.formDepositCalc .btn{
+	padding:5px 0;
+	margin-left:20px;
+	font:bold 13px Arial, Helvetica, sans-serif !important;
+}*/
+/*.jqTransformButton:hover, .formDepositCalc .btn:hover{
+	background-position:0 -28px !important;
+}*/
+.notActive .jqTransformButton:hover{
+	background-position:0 0 !important;
+	cursor:default;
+	text-shadow:0;
+} 
+.blueButton .jqTransformButton{
+	background-image: url(/img/bgBtnBlue.png) !important;
+}
+.arBlock .jqTransformButton{
+	width:200px;
+}
+.jqTransformButton span{
+	margin-top:-1px;
+	font-weight:bold;
+	display:block;
+	font-size:14px !important;
+	line-height:12px;
+	text-shadow:0 -1px 0 #3e8312;
+}
+.jqTransformButton:hover span{
+	text-shadow:0 -1px 0 #3a651e;
+}
+.blueButton .jqTransformButton span{
+	text-shadow:0 -1px 0 #2c566d;	
+}
+.blueButton .jqTransformButton:hover span{
+	text-shadow:0 -1px 0 #3b6277;
+}
+/*=======================================================*/
+/*=Депозитный калькулятор=====================================*/
+.formDepositCalc{
+	font-size:14px;
+}
+.formDepositCalc label{
+	margin:2px 10px 0 0;
+}
+.promoblock-long .formDepositCalc label{
+	float:left;
+}
+.promoblock-long .formDepositCalc .doubleLeft{
+	margin-right:0;
+}
+.formDepositCalc select{
+	margin-right:20px;
+	font-size:13px !important;
+}
+.formDepositCalc .doubleRight .jqTransformSelectWrapper{
+	width:55px !important;
+	margin:2px 45px 0 0;
+}
+.formDepositCalc .jqTransformSelectWrapper{
+	margin-top:2px;
+}
+.formDepositCalc .doubleRight .jqTransformSelectWrapper ul{
+	width:70px !important;
+}
+.formDepositCalc .doubleLeft .jqTransformInputWrapper{
+	width:125px !important;
+	position:relative;
+	z-index:111;
+}
+.formDepositCalc .doubleLeft{
+	margin-right:10px;
+}
+.formDepositCalc .doubleLeft input{
+	width:115px !important;
+	font-size:14px;
+	position:relative;
+	z-index:111;
+}
+.formDepositCalc .doubleRight{
+	position:relative;
+	z-index:112;
+}
+.formDepositCalc .doubleRight select{
+	font-size:14px;
+}
+.formDepositCalc .cityChange{
+	width:278px;
+	padding-left:5px;
+	margin-top:11px;
+	float:left;
+}
+.formDepositCalc .textbox{
+	height:14px;
+}
+.submitBlock{
+	width:100%;
+	margin-top:30px;
+	padding:20px 0;
+	float:left;
+	color:#454545;
+	background: url(/img/bgShadowLineLong.png) no-repeat;
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+}
+.submitBlock .btnWrapper{
+	left:570px; top:23px;
+	position:absolute;
+}
+.calcIncome .formDepositCalc .doubleLeft .jqTransformInputWrapper{
+	width:207px !important;
+	position:relative;
+	z-index:111;
+}
+.calcIncome label{
+	margin-top:11px !important;
+}
+.calcIncome .formDepositCalc .doubleLeft input{
+	width:175px !important; height:33px !important;
+	position:relative;
+	z-index:111;
+}
+.calcIncome select{
+	width:150px;
+}
+.calcIncome .doubleRight{
+	margin-right:3px;
+}
+.calcIncome  .doubleRight select{
+	width:70px;
+}
+/*=Форма вклада=====================================*/
+.depositForm .jqTransformSelectWrapper{
+	width:214px !important;
+}
+.depositForm select{
+	width:214px;
+}
+.depositForm .jqTransformInputWrapper{
+	width:247px !important;
+}
+.depositForm .jqTransformInputWrapper .textbox{
+	width:225px !important;
+}
+.depositForm .doubleLeft .jqTransformInputWrapper{
+	width:175px !important;
+}
+.depositForm .doubleLeft .jqTransformInputWrapper .textbox{
+	width:153px !important;
+}
+.depositForm .doubleRight .jqTransformSelectWrapper{
+	width:44px !important;
+	margin-top:2px;
+}
+.depositForm .doubleRight .jqTransformSelectWrapper select{
+	width:44px;
+}
+.depositForm .phoneCode .doubleLeft .jqTransformInputWrapper{
+	width:74px !important;
+}
+.phoneCode .fl{
+	padding-top:11px;
+	margin-left:-10px;
+}
+.depositForm .phoneCode .doubleLeft .jqTransformInputWrapper .textbox{
+	width:52px !important;
+}
+.depositForm .phoneNumber .doubleRight .jqTransformInputWrapper{
+	width:179px !important;
+}
+.depositForm .phoneNumber .doubleRight .jqTransformInputWrapper .textbox{
+	width:157px !important;
+}
+.phoneCode{
+	float:left;
+}
+.phoneCode .small, .phoneNumber .small{
+	padding-left:20px;
+	clear:both;
+	display:block;
+	color:#878787;
+}
+.phoneNumber .small{
+	padding-left:13px;
+}
+.phoneNumber{
+	float:left;
+}
+/*=Форма помощника выбора вклада=====================================*/
+.depositHelperForm .jqTransformInputWrapper{
+	width:163px !important;
+	float:left;
+}
+.depositHelperForm .jqTransformInputWrapper input{
+	width:140px !important;
+}
+.depositHelperForm .depSum .jqTransformSelectWrapper{
+	width:49px !important;
+	margin-top:2px;
+}
+.depositHelperForm .depSum .jqTransformSelectWrapper select{
+	width:55px !important;
+}
+.depositHelperForm .jqTransformSelectWrapper{
+	width:170px !important;
+}
+.depositHelperForm .jqTransformSelectWrapper select{
+	width:170px !important;
+}
+.depositHelperForm{}	
+/*=Заявка на ипотеку=====================================*/
+.mortgageForm .short .jqTransformSelectWrapper {
+	width:53px !important;
+	margin-right:30px;
+}
+.mortgageForm .short .jqTransformInputWrapper {
+	width:73px !important;
+	margin-right:30px;
+}
+
+.mortgageForm .short select{
+	width:53px !important;
+}
+.mortgageForm .month .jqTransformSelectWrapper{
+	width:144px !important;
+	margin-right:30px;
+}
+.mortgageForm .month select{
+	width:144px !important;
+}
+.mortgageForm .doubleLeft .jqTransformInputWrapper{
+	width:175px !important;
+}
+.mortgageForm .doubleLeft .jqTransformInputWrapper .textbox{
+	width:153px !important;
+}
+.mortgageForm .doubleRight .jqTransformSelectWrapper{
+	width:45px !important;
+	margin-top:2px;
+}
+.mortgageForm .doubleRight .jqTransformSelectWrapper select{
+	width:45px;
+}
+.mortgageForm .active .doubleLeft .jqTransformInputWrapper{
+	width:99px !important;
+}
+.mortgageForm .active .doubleLeft .jqTransformInputWrapper .textbox{
+	width:65px !important;
+}
+.mortgageForm .businessPercent .jqTransformInputWrapper{
+	width:95px !important;
+}
+.mortgageForm .businessPercent .jqTransformInputWrapper .textbox{
+	width:73px !important;
+}
+/*=Ипотечный калькулятор=====================================*/
+.formMortgageCalc .jqTransformInputWrapper{
+	width:248px !important;
+}
+.formMortgageCalc select{
+	width:189px !important;
+}
+.formMortgageCalc .textbox{
+	width:195px !important;
+}
+.fourthStep .jqTransformInputWrapper{
+	width:136px !important;
+	margin-right:5px;
+	float:left;
+}
+.fourthStep .textbox{
+	width:118px !important;
+} 
+.fourthStep .jqTransformInputWrapper_focus{
+	background-position:right 0px;
+}
+.fourthStep .jqTransformInputWrapper_focus .jqTransformInputInner, .doubleRight .jqTransformInputWrapper_focus .jqTransformInputInner{
+	background-position:0 0;
+}
+.fourthStep .jqTransformButton{
+	margin:0 60px 0 20px;
+	_margin-right:30px;
+}
+/*=Форма обратной связи и форма отзыва===================================================*/
+.feedbackForm .first select, .requestForm select{
+	width:345px;
+} 
+
+.feedbackForm select, .requestForm select{
+	width:266px !important;
+}
+.requestForm .jqTransformSelectWrapper{
+	width:266px !important;
+}
+.requestForm .jqTransformSelectWrapper ul{
+	width:266px !important;
+}
+.feedbackForm .jqTransformSelectWrapper div span, .requestForm .jqTransformSelectWrapper div span{
+	width:240px !important;
+	font-size:14px;	
+}
+.feedbackForm .jqTransformInputWrapper, .requestForm .jqTransformInputWrapper {
+	width:299px !important;
+}
+.feedbackForm .jqTransformInputWrapper input, .requestForm .jqTransformInputWrapper input{
+	width:265px !important;
+}
+.feedbackForm .doubleLeft .jqTransformInputWrapper, .requestForm .doubleLeft .jqTransformInputWrapper{
+	width:75px !important;
+}
+.feedbackForm .doubleLeft .jqTransformInputWrapper input, .requestForm .doubleLeft .jqTransformInputWrapper input{
+	width:41px !important;
+}
+.feedbackForm .doubleRight .jqTransformInputWrapper, .requestForm .doubleRight .jqTransformInputWrapper{
+	width:230px !important;
+}
+.feedbackForm .doubleRight .jqTransformInputWrapper input, .requestForm .doubleRight .jqTransformInputWrapper input{
+	width:205px !important;
+}
+.feedbackForm .jqTransformTextarea textarea, .requestForm .jqTransformTextarea textarea{
+	width:378px;
+}
+.feedbackForm .fileWrapper div, .requestForm .fileWrapper div{
+	left:214px;
+}
+.feedbackForm .file, .requestForm .file{
+	width:214px;
+}
+.requestForm .radioWrapper{
+	margin-right:20px;
+	float:left;
+}
+.requestForm .rw1{
+	margin-right:33px;
+}
+.requestForm .rw2{
+	margin-right:55px;
+}
+.requestForm .first td{
+	padding-bottom:10px;
+}
+.defaultForm{}
+.defaultForm .jqTransformInputWrapper{
+	width:255px !important;
+}
+.defaultForm .jqTransformInputWrapper input{
+	width:225px !important;
+}
+.defaultForm .jqTransformTextarea{
+	width:450px !important;
+}
+.defaultForm textarea{
+	width:435px !important;
+}
+.defaultForm{
+	padding-left:0 !important;
+}
+
+.newYearForm td{
+	padding-bottom:20px;
+}
+.newYearForm .short .jqTransformSelectWrapper{
+	width:60px !important;
+}
+.newYearForm .jqTransformSelectWrapper div span{
+	/* width:auto !important; */
+}
+.newYearForm .short .jqTransformSelectWrapper ul{
+	width:80px !important;
+}
+.newYearForm .month .jqTransformSelectWrapper ul{
+	width:166px !important;
+}
+.newYearForm  .jqTransformInputWrapper .textbox{
+	width:270px !important;
+}
+.newYearForm  .short .jqTransformInputWrapper .textbox{
+	width:50px !important;
+}
+.newYearForm  .doubleLeft .jqTransformInputWrapper .textbox{
+	width:50px !important;
+}
+.numberEight{
+	float:left;
+	margin:11px 0 0 -10px;
+}
+.message{
+	/*width:180px;
+	margin-top:-25px;
+	float:right;*/
+}
+.errorMessage{
+	color:#8e1e09 !important;
+}
+.hint, .legend{
+	font-size:10px;
+	padding-left:20px;
+	color:#606060 !important;
+}
+.fr.hint {
+    clear: none;
+    margin-right: 0px;
+}
+.newYearTable{
+	/*width:675px !important;*/
+}

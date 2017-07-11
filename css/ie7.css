@@ -1,0 +1,43 @@
+.lang a, .lang span{
+    padding-top:8px;
+}
+.btnShadow{
+    padding-left:138px;
+}
+.searchForm{
+    top:3px;
+}
+.searchForm .inputtext{
+    padding-top:3px;
+}
+.searchForm .btnSearch{
+    top:5px;
+}
+.mainNav .active span, .mainNav span{
+    padding-top:8px;
+}
+.indexNews .content{
+    margin-top:0;
+}
+.indexNews .content a{
+    line-height:17px;
+}
+.alNav li .subMenu{
+    margin-top:-3px;
+    zoom:1;
+}
+.news{
+    zoom:1;
+}
+.defaultForm form{
+    margin-left:-35px;
+}
+.defaultForm .inputtextarea{
+    margin-left:44px;
+}
+.defaultForm .input{
+    margin-left:20px;
+}
+.defaultForm .inputtext{
+    margin-top:-1px;
+}
