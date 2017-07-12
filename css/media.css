@@ -1,0 +1,440 @@
+@media screen and (min-width: 1010px) {
+    .jssaa-wrapper .img {
+        width: auto;
+    }
+}
+
+/***1010px***/
+
+@media screen and (max-width: 1010px) {
+
+    /*header*/
+    #header {
+        width: 100%;
+        height: auto;
+    }
+
+    #header .buttons {
+        right: 14px;
+    }
+
+    #fixWidth {
+        min-width: 0;
+    }
+
+    /*слайдер*/
+    .index .subHeader {
+        width: auto;
+        left: auto;
+        margin: -40px 0 0;
+        position: relative;
+    }
+
+    .bannerWrapper .banner,
+    .bannerWrapper .bjqs-controls {
+        width: 100%;
+    }
+
+    .bannerWrapper .bjqs-controls {
+        margin: 0 !important;
+        left: auto;
+        right: 14px;
+    }
+
+    .bannerWrapper .bjqs-markers {
+        right: 80px;
+        left: auto !important;
+        margin: 0 !important;
+    }
+
+    .mainSliderItemWrapper,
+    .bannerWrapper .bannerHolder,
+    .bannerWrapper ul.bjqs li,
+    .bannerWrapper ul.bjqs,
+    .bannerWrapper {
+        height: 100%;
+    }
+    .mainNavWrapper {
+        width: 100%;
+    }
+
+    .mainNav  {
+        width: 72% !important;
+    }
+    .mainNav li {
+        font-size: 14px;
+        width: 25%;
+        height: auto;
+    }
+    .mainNav span {
+        display: none;
+    }
+
+    .searchBlock .nav li {
+        padding: 0 10px;
+    }
+    .miniSearchWrapper .form {
+         padding: 0;
+     }
+
+
+    .servicesAndActions .indexPromoBlock,
+    .servicesAndActions .indexPromoBlock:first-child {
+        width: 47%;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 180px;
+        padding: 9px;
+    }
+
+    .jssaa-wrapper .img,
+    .servicesAndActions .indexPromoBlock:first-child .img {
+        width: auto;
+        margin-right: 10px;
+    }
+    .jssaa-wrapper .img img{
+        width: 100%;
+        height: auto;
+    }
+    .servicesAndActions .indexPromoBlock .links {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+    }
+    #outerWrapper {
+        width: 100%;
+    }
+
+    #footerWrapper {
+        height: auto;
+    }
+    /*футер*/
+    #footer {
+        width: 100%;
+    }
+
+    .footerNav::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .copyrights,
+    .footerNav {
+        float: none;
+        width: 100%;
+    }
+
+    .footerNav {
+        margin-bottom: 10px;
+    }
+
+    #footer .footerNav > div {
+        width: 33%;
+        padding: 0 3% !important;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .beMobile,
+    .copyrights_text,
+    .developers,
+    .developers a {
+        float: none;
+        display: inline-block;
+        width: 33%;
+        vertical-align: top;
+        margin: 0;
+    }
+}
+
+/***980px***/
+
+@media screen and (max-width: 980px) {
+
+    /*блок Что нового?, обратите внимание*/
+    .infoBlock::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .index #asideRight {
+        display: none;
+    }
+
+    .infoBlock {
+        padding: 25px 0;
+    }
+
+    .infoBlock > div {
+        width: 50%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+/***890px***/
+
+@media screen and (max-width: 890px) {
+    .jssaa-wrapper .img,
+    .servicesAndActions .indexPromoBlock:first-child .img {
+        width: 30%;
+    }
+    .describe {
+        margin-left: 33%;
+    }
+    .mainNav  {
+        width: 100% !important;
+    }
+    .miniSearchWrapper .form {
+        display: none;
+    }
+    .searchBlock .nav a {
+        font-size: 13px;
+    }
+}
+
+/***820px***/
+
+@media screen and (max-width: 820px) {
+
+    /*шапка сайта*/
+    .officeAtmBlock {
+        top: 8px;
+    }
+    #header .buttons {
+        top: 38px;
+        left: 190px;
+        right: auto;
+    }
+
+    .headerWrapper {
+        height: 120px;
+    }
+    .logo {
+        top: 9px;
+    }
+
+
+}
+
+/***780px***/
+
+@media screen and (max-width: 780px) {
+    .mainNav {
+        height: auto;
+        background-color: #3c4344;
+    }
+
+
+    .mainNavWrapper,
+    .searchBlock .navWrapper {
+        position: relative;
+        height: auto;
+    }
+
+
+    .searchBlock .nav {
+        float: none;
+        width: 100% !important;
+    }
+    .mainNav a {
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .mainNav a.active {
+        background-color: #000;
+    }
+    .mainNav ul {
+        overflow: visible;
+        padding: 0;
+    }
+
+    .mainNav .bg {
+        background: none;
+    }
+
+    .searchBlock {
+        width: 100%;
+        height: auto !important;
+    }
+    .searchBlock ul {
+        width: auto;
+    }
+    .subHeader {
+        padding: 0;
+    }
+}
+
+/***740px***/
+
+@media screen and (max-width: 740px) {
+    .servicesAndActions .indexPromoBlock,
+    .servicesAndActions .indexPromoBlock:first-child {
+        width: 96%;
+        float: none;
+        margin: 0 2% 20px;
+        height: auto;
+    }
+
+    .jssaa-wrapper .img,
+    .servicesAndActions .indexPromoBlock:first-child .img {
+        width: 100px;
+        margin-right: 4% !important;
+    }
+
+    .describe {
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+
+    #footer .footerNav [class*="Col"] {
+        background: none;
+        height: auto;
+
+    }
+
+    .footerNav {
+        margin-bottom: 24px;
+    }
+}
+
+/***740px***/
+
+@media screen and (max-width: 640px) {
+    /*блок Что нового?, обратите внимание*/
+    .infoBlock > div {
+        width: 100%;
+        margin-bottom: 20px;
+        float: none;
+    }
+
+    /*будь мобильнее*/
+    .beMobile {
+        float: left;
+        width: 140px;
+    }
+
+
+    .copyrights_text,
+    .developers {
+        display: block;
+        margin-left: 40%;
+        width: 100%;
+    }
+}
+
+/***560px***/
+
+@media screen and (max-width: 560px) {
+    .logo,
+    .officeAtmBlock,
+    #header {
+        position: static;
+        height: auto;
+    }
+
+
+    #header .buttons {
+        width: 100%;
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        margin-top: 20px;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .city {
+        margin: 0;
+        margin-left: -5px;
+        height: auto;
+        float: none;
+        display: inline-block;
+    }
+
+    .city li {
+        height: auto;
+        padding: 6px 0 6px 11px;
+    }
+
+    .officeAtm {
+        display: block;
+    }
+
+    .officeAtmBlock {
+        margin-left: 180px;
+    }
+
+
+    /*слайдер*/
+    .index .subHeader {
+        margin: 0;
+        position: relative;
+    }
+
+
+    .mainNav li {
+        float: none;
+        width: 100% !important;
+    }
+}
+
+/***520px***/
+
+@media screen and (max-width: 520px) {
+    #footer .footerNav [class*="Col"] {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .copyrights {
+        padding-left: 20px;
+    }
+}
+
+/***440px***/
+
+@media screen and (max-width: 440px) {
+    .servicesAndActions .indexPromoBlock .img,
+    .servicesAndActions .indexPromoBlock:first-child .img {
+        display: block;
+        width: 50%;
+        float: none;
+    }
+}
+
+/***440px***/
+
+@media screen and (max-width: 400px) {
+    .copyrights_text,
+    .developers {
+        display: block;
+        margin-left: 0;
+    }
+    .beMobile {
+        display: block;
+        float: none;
+    }
+
+    .city li,
+    .officeAtm a {
+        font-size: 14px;
+    }
+    .logo {
+        width: 150px;
+    }
+
+    .officeAtmBlock {
+        margin-left: 156px;
+    }
+
+}

@@ -1,0 +1,93 @@
+
+
+/* Start:/bitrix/components/mscoder/banner.main/templates/peronal_slider/style.css?14912121841226*/
+.neozhidanniy-konets-arhiva
+{
+    margin-left: -20px;
+}
+
+.neozhidanniy-konets-arhiva .ss-item
+{
+    background-color: #ebeff2;
+    width: 140px;
+    border-radius: 8px;
+    border-bottom: 1px solid #cbd3d8;
+    text-align: center;
+    color: #303030;
+    font-weight: bold;
+    padding: 13px 0;
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+}
+
+.ss-img-b-wrapper
+{
+    padding-bottom: 10px;
+}
+
+.ss-gray-bg
+{
+    border-top: 1px solid #d7dde1;
+    background: #eef2f4;
+    margin: 21px -1px 0px -20px;
+    border-radius: 0px 0px 6px 6px;
+    padding: 20px;
+}
+
+.ss-oformi
+{
+    float: left;
+    width: 240px;
+    font-size: 14px;
+}
+
+.ss-oformi > div
+{
+    font-size: 19px;
+    color: #008293;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bannerWrapper .ss-nalichnye-button.buttons {
+    left: 256px;
+}
+
+.bannerWrapper .total .summ
+{
+    font-size: 29px;
+    letter-spacing: -2px;
+}
+
+.searchBlock .nav .navWrapper:first-child li {
+    padding: 0px 10px;
+}
+
+.card2card-btn {
+    position: absolute;
+    top: 285px;
+    left: 50%;
+    margin-left: -116px;
+}
+
+.bankonline-btn {
+    position: absolute;
+    top: 322px;
+    left: 50%;
+    margin-left: -116px;
+}
+
+.try-btn {
+    position: absolute;
+    top: 290px;
+    left: 435px;
+    font-size: 16px;
+    color: #d9edef;
+    text-shadow: 0 1px 2px #0d454d;
+}
+
+.try-btn:hover {
+    color: #fff;
+}
+/* End */
+/* /bitrix/components/mscoder/banner.main/templates/peronal_slider/style.css?14912121841226 */
