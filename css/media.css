@@ -40,6 +40,23 @@
         min-width: 0;
     }
 
+
+    /*шапка для внутренних страниц*/
+    .omg {
+        width: 100%;
+    }
+
+    .subHeader {
+        width: 100%;
+    }
+
+    /*контент в одну колонку*/
+    .contentBlock {
+        display: block;
+        float: none;
+        padding: 0 18px 18px;
+    }
+
     /*слайдер*/
     .index .subHeader {
         width: auto;
@@ -78,6 +95,11 @@
 
     .mainNav  {
         width: 72% !important;
+        height: auto;
+        background-color: #454c4d;
+        -webkit-box-shadow: inset 0px 10px 33px -10px rgba(0,0,0,0.62);
+        -moz-box-shadow: inset 0px 10px 33px -10px rgba(0,0,0,0.62);
+        box-shadow: inset 0px 10px 33px -10px rgba(0,0,0,0.62);
     }
     .mainNav li {
         font-size: 14px;
@@ -182,6 +204,28 @@
         vertical-align: top;
         margin: 0;
     }
+
+    /*article (внутренние страницы)*/
+    #article #asideRight {
+        margin-right: 20px;
+    }
+
+    #article #asideRight::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .twoCols .contentBlock  {
+        float: none;
+        margin-right: 315px;
+        width: auto;
+    }
+
+    .promoblock-shorter-wrapper {
+        box-sizing: border-box;
+    }
+
 }
 
 /***980px***/
@@ -209,6 +253,49 @@
         padding: 10px;
         box-sizing: border-box;
     }
+
+    /*выпадающее меню*/
+    .hideBlockWrapper .hideBlock #jqFirstMenu .column,
+    .hideBlockWrapper .hideBlock #jqSecondMenu .column {
+        max-width: none;
+    }
+    .hideBlock * {
+        box-sizing: border-box;
+    }
+
+    .hideBlockWrapper .hideBlock #jqFirstMenu .column,
+    .hideBlockWrapper .hideBlock #jqSecondMenu .column {
+        width: 48%;
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+
+    .hideBlockOuterWrapper,
+    .hideBlock{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .hideBlockOuterWrapper {
+        padding-right: 16px;
+    }
+
+    .hideBlockFooter {
+        width: 100%;
+        height: auto;
+        padding: 10px 0 0 18px;
+        background-image: none;
+        background-color: #ededed;
+        -webkit-box-shadow: inset 0px 10px 10px -9px rgba(0,0,0,0.15);
+        -moz-box-shadow: inset 0px 10px 10px -9px rgba(0,0,0,0.15);
+        box-shadow: inset 0px 10px 10px -9px rgba(0,0,0,0.15);
+    }
+
+    .hideBlockFooter > div {
+        margin-bottom: 10px;
+        float: left !important;
+    }
 }
 
 /***890px***/
@@ -229,6 +316,9 @@
     }
     .searchBlock .nav a {
         font-size: 13px;
+    }
+    .mainNav  {
+        padding: 1px 1px 8px;
     }
 }
 
@@ -336,6 +426,13 @@
     .footerNav {
         margin-bottom: 24px;
     }
+
+    /*адаптивные изображения в контенте*/
+    .contentBlock img {
+        width: 100%;
+        height: auto;
+        margin: 20px !important;
+    }
 }
 
 /***740px***/
@@ -405,6 +502,46 @@
         margin-left: 40%;
         width: 100%;
     }
+
+    /*контент на внутренних страницах*/
+    #article #asideRight {
+        float: none;
+        padding: 0;
+        margin: 0 20px 20px;
+
+    }
+    #article #asideRight::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+
+    .twoCols .contentBlock {
+        margin-right: 0;
+    }
+
+    .slide-link {
+        display: block;
+    }
+    .promoblock-short-wrapper.tork {
+        display: block;
+        float: none;
+        width: auto;
+        height: auto;
+        margin-top: 70px;
+    }
+    .hided {
+        padding-right: 16px;
+    }
+
+    .remoteCallImg {
+        float: left;
+        height: 219px;
+    }
+    #article .arBlockWrapper {
+        /*float: left;*/
+    }
 }
 
 /***560px***/
@@ -426,6 +563,10 @@
         top: auto;
         bottom: auto;
         margin-top: 20px;
+    }
+
+    .subHeader {
+        margin: -7px auto 40px;
     }
 
     .logo {
@@ -483,6 +624,15 @@
 
     .copyrights {
         padding-left: 20px;
+    }
+
+
+    /*выпадающее меню на главной странцие*/
+    .hideBlockWrapper .hideBlock #jqFirstMenu .column,
+    .hideBlockWrapper .hideBlock #jqSecondMenu .column {
+        width: 100%;
+        padding: 0;
+        display: block;
     }
 }
 
