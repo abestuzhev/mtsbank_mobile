@@ -320,6 +320,16 @@
     .mainNav  {
         padding: 1px 1px 8px;
     }
+
+    /*тконка телефона в фиксированной шапке*/
+    body.m-fixed-subheader #header .buttons {
+        right: 0;
+        margin: 0;
+    }
+    body.m-fixed-subheader #header .buttons .btnContact {
+        right: 10px;
+        margin: 0;
+    }
 }
 
 /***820px***/
