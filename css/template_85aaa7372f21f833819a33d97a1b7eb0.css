@@ -13315,14 +13315,15 @@ span.selectedText {
     width: 100%;
     height: 29px;
     margin-bottom: 5px;
-    background: url(../"/img/bgShadowLine.png") center top no-repeat;
+    background: url("../img/bgShadowLine.png") center top no-repeat;
 }
 .long-line {
-    background: url(../"/img/bgShadowLineLong.png") center top no-repeat !important;
+    background: url("../img/bgShadowLineLong.png") center top no-repeat !important;
 }
 .short-line {
     height: 10px;
-    background: url(../"/img/bgShadowLineShort.png") center top no-repeat !important;
+    background: url("../img/bgShadowLineShort.png") center top no-repeat !important;
+
 }
 /****UPDATE****/
 .minibanner-container {

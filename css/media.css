@@ -239,6 +239,10 @@
     .minibanner-container .table-outer-wrapper {
         padding: 25px 25px 10px;
     }
+
+    .monthWrapper {
+        width: 100%;
+    }
 }
 
 /***980px***/
@@ -470,17 +474,6 @@
         margin: 0 !important;
     }
 
-    /*.column {*/
-        /*float: none;*/
-        /*padding: 0;*/
-    /*}*/
-
-    /*.column.one-half {*/
-        /*width: 100%;*/
-        /*margin-bottom: 20px;*/
-    /*}*/
-
-
 }
 
 /***640px***/
@@ -682,6 +675,18 @@
         padding: 0;
         display: block;
     }
+
+
+    .column {
+    float: none;
+    padding: 0;
+    }
+
+    .column.one-half {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
 }
 
 /***440px***/
