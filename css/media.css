@@ -226,6 +226,19 @@
         box-sizing: border-box;
     }
 
+    /*колонки*/
+    .minibanner-container {
+        width: 100%;
+    }
+
+
+
+    .minibanner-container {
+        margin: 0 0 20px 0;
+    }
+    .minibanner-container .table-outer-wrapper {
+        padding: 25px 25px 10px;
+    }
 }
 
 /***980px***/
@@ -356,6 +369,14 @@
     .searchBlock .nav i {
         display: none !important;
     }
+
+    .imgWrapper img {
+        float: none;
+    }
+    .vaHolder {
+        padding: 0;
+        margin-bottom: 10px;
+    }
 }
 
 /***780px***/
@@ -437,15 +458,32 @@
         margin-bottom: 24px;
     }
 
-    /*адаптивные изображения в контенте*/
     .contentBlock img {
         width: 100%;
         height: auto;
         margin: 20px !important;
     }
+
+    .contentBlock .column img {
+        width: auto;
+        height: auto;
+        margin: 0 !important;
+    }
+
+    /*.column {*/
+        /*float: none;*/
+        /*padding: 0;*/
+    /*}*/
+
+    /*.column.one-half {*/
+        /*width: 100%;*/
+        /*margin-bottom: 20px;*/
+    /*}*/
+
+
 }
 
-/***740px***/
+/***640px***/
 
 @media screen and (max-width: 640px) {
     /*слайдер*/
