@@ -131,6 +131,30 @@
     width: 100%
 }
 
+@media (max-width: 780px) {
+    .one-fourth {
+        width: 50%;
+        margin-bottom: 16px;
+    }
+    .columns {
+        font-size: 0;
+    }
+    .column {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 480px) {
+    .one-fourth {
+        width: 100%;
+    }
+    .column {
+        display: block;
+    }
+}
+
 @media (min-width: 544px) {
     .col-sm-1 {
         width: 8.33333%

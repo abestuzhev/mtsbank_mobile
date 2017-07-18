@@ -1,0 +1,26 @@
+
+
+/* Start:/local/components/aic.robotics/atm.top.block/templates/atms-region-list/style.css?1468412450333*/
+.network .td_1 a {
+	border-bottom: solid 1px #00658b;
+	color: #00658b !important;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.network .td_1 a:hover {
+	border-bottom: solid 1px #d50f0a;
+}
+
+.network .td2wide {
+	color:#1a1a1a;
+	line-height: 17px;
+	font-size: 13px;
+}
+
+.network tr.tr-atms td {
+	padding-top: 40px;
+}
+/* End */
+/* /local/components/aic.robotics/atm.top.block/templates/atms-region-list/style.css?1468412450333 */
