@@ -347,6 +347,28 @@
         right: 10px;
         margin: 0;
     }
+
+    /*citysearchForm*/
+    .citysearchForm .small {
+        display: none;
+    }
+
+    .tabsBlockWrapper {
+        width: auto;
+        height: auto;
+    }
+    .citysearchForm {
+        float: right;
+
+    }
+    .citysearchForm .btnSearch {
+        right: 10px;
+        left:auto;
+    }
+
+    .tabs {
+        margin: 0 !important;
+    }
 }
 
 /***820px***/
@@ -585,7 +607,26 @@
     #article .arBlockWrapper {
         float: left;
     }
-
+    .citysearchForm,
+    .citysearchForm .textbox {
+        width: 100%;
+        float: none;
+    }
+    .tabs {
+        float: none;
+    }
+    .tabs::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .citysearchForm {
+        margin-top: 6px;
+    }
+    .tabs .active::after {
+        content: '';
+        display: none;
+    }
 }
 
 /***560px***/
@@ -654,6 +695,7 @@
     .mainNav a.active {
         background-color: #118f9e;
     }
+
 }
 
 /***520px***/
@@ -670,7 +712,6 @@
         padding-left: 20px;
     }
 
-
     /*выпадающее меню на главной странцие*/
     .hideBlockWrapper .hideBlock #jqFirstMenu .column,
     .hideBlockWrapper .hideBlock #jqSecondMenu .column {
@@ -678,7 +719,6 @@
         padding: 0;
         display: block;
     }
-
 
     .column {
     float: none;
@@ -690,6 +730,10 @@
     margin-bottom: 20px;
     }
 
+    .tabs-header,
+    .tabsBlock {
+        padding: 10px;
+    }
 }
 
 /***440px***/
@@ -701,6 +745,7 @@
         width: 50%;
         float: none;
     }
+
 }
 
 /***440px***/

@@ -2,3 +2,252 @@
 .network li {
     font-size: 15px;
 }
+
+/*блок с табами для офисов и багкоматов*/
+
+.tabsBlockWrapper * {
+    box-sizing: border-box;
+}
+.tabsBlockWrapper {
+    width: 100%;
+    padding: 3px 4px;
+    position: relative;
+    z-index: 10;
+    background-color: #e7ecee;
+    -webkit-box-shadow: inset 0px 5px 10px -4px rgba(0,0,0,0.48);
+    -moz-box-shadow: inset 0px 5px 10px -4px rgba(0,0,0,0.48);
+    box-shadow: inset 0px 5px 10px -4px rgba(0,0,0,0.48);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.tabsBlockWrapper::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tabs-header {
+    border-radius: 10px;
+    padding: 10px 24px;
+    -webkit-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.48);
+    box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.48);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 97%, rgba(248,248,248,1) 99%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(97%, rgba(248,248,248,1)), color-stop(99%, rgba(248,248,248,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 97%, rgba(248,248,248,1) 99%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 97%, rgba(248,248,248,1) 99%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 97%, rgba(248,248,248,1) 99%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 97%, rgba(248,248,248,1) 99%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.tabs-header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tabsBlockWrapper small {
+    color: #505050;
+}
+.tabs {
+    float: left;
+    position: relative;
+    margin: 0 101px 0 0 !important;
+    z-index: 1;
+    zoom: 1;
+}
+.tabs li {
+    padding: 5px 0;
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.tab1 {
+    margin-right: 25px;
+    padding-right: 25px !important;
+    background: url(../img/sepYears.png) top right no-repeat;
+}
+.tabs a {
+    color: #00658b !important;
+    text-decoration: underline;
+}
+.tabs a:hover {
+    color: #d50f0a !important;
+}
+.tabs .active {
+    color: #303030 !important;
+    text-decoration: none;
+    zoom: 1;
+    float: left;
+    position: relative;
+}
+.tabs .active::after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 13px;
+    background: url(../img/runnerOffice.png) bottom center no-repeat;
+}
+.tabsBlock {
+    top: 1px;
+    position: relative;
+    font-size: 15px;
+    margin: 0;
+    padding: 18px 20px;
+}
+.tabsBlock::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.onMap {
+    background-position: bottom left;
+}
+.onMap .tabsBlock {
+    height: 18px !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    behavior: url(../css/pie.htc);
+    background: url(../img/bgTabsBlock.png);
+}
+
+/*
+#asideLeft.onMap .atmList,
+#asideLeft.onMap .officeList {
+  padding: 10px 0 10px 10px;
+  margin: -10px 0 0 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url(../css/pie.htc);
+  position: relative;
+  background: url(../img/bgTabsBlock.png);
+}
+
+#asideLeft.onMap .atmList {
+  margin-top: -30px;
+}
+*/
+
+.tabsBlock ul {
+    margin-right: 20px;
+    float: left;
+}
+/*.tabsBlock li {*/
+    /*margin-right: 24px;*/
+    /*list-style: none;*/
+    /*float: left;*/
+    /*position: relative;*/
+/*}*/
+.tabsBlock li:first-child {
+    margin-left: 0;
+}
+.tabsBlock strong {
+    color: #606060;
+    margin-right: -11px;
+    position: relative;
+    zoom: 1;
+}
+.tabsBlock a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+.tabsBlock .active,
+.formMortgagepartners .active {
+    padding: 1px 8px;
+    background: url(../img/bgBtnBlue.gif) repeat-x;
+}
+.tabsBlock .active {
+    padding: 0 8px;
+    margin: 0 -7px 0 -5px;
+}
+.tabsBlock .active a,
+.formMortgagepartners .active a {
+    color: #fff !important;
+    border: 0 !important;
+}
+.tabsBlock span {
+    padding: 1px 2px;
+    display: block;
+    margin-top: -2px;
+}
+.tabsBlock .filter {
+    margin-top: 1px !important;
+    float: right;
+    padding-right: 34px;
+}
+.tabsBlock .atmsFilter.turn-on {
+    text-shadow: 0 -1px 0 #236991;
+    background: url(../img/bgBtnBlue.gif) repeat-x !important;
+}
+.tabsBlock .atmsFilter.turn-on:hover {
+    color: #fff !important;
+}
+.citysearchForm {
+    float: left;
+    position: relative;
+    color: #909090;
+    display: block;
+}
+.citysearchForm a {
+    color: #000000 !important;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+.citysearchForm a:hover {
+    color: #333333 !important;
+}
+.citysearchForm .textbox {
+    width: 297px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+    padding: 3px 34px 3px 9px;
+    border: 0;
+    color: #3d3d3d;
+    text-shadow: 0 1px #f9f9f9;
+    font-size: 14px;
+    background-color: #e4e4e4;
+    -webkit-box-shadow: inset 0px 5px 5px -5px rgba(0,0,0,0.43);
+    -moz-box-shadow: inset 0px 5px 5px -5px rgba(0,0,0,0.43);
+    box-shadow: inset 0px 5px 5px -5px rgba(0,0,0,0.43);
+    border-radius: 4px;
+}
+.citysearchForm .btnSearch {
+    top: 5px;
+    left: 272px;
+    position: absolute;
+}
+.howToShow {
+    float: left;
+    margin: 0 !important;
+}
+
+.howToShow::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.howToShow li {
+    margin: 0 24px 4px 0;
+    list-style: none;
+    font-size: 15px;
+    color: #7e7e7e;
+    float: left;
+}
+.howToShow li:first-child {
+    margin-left: 0;
+}
+.howToShow li:last-child {
+    margin-right: 0;
+}

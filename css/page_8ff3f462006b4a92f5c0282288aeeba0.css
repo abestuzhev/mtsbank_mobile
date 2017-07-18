@@ -1,0 +1,54 @@
+
+
+/* Start:/local/components/aic.robotics/atm.top.block/templates/.default/style.css?1468498729823*/
+.officeTable .tBody .tr2 {
+    border-bottom: 1px solid #c4c4c4;
+    overflow: hidden;
+}
+
+.officeTable .tBody .tr2 div {
+    color: #c4c4c4;
+    float: left;
+    padding: 20px 0 20px 27px;
+}
+
+
+.officeTable .tBody .tr2 .td2wide {
+    width: 440px;
+    color:#1a1a1a
+}
+
+
+.officeTable.moskowAtm .tBody .tr2 .td2wide {
+    width: 700px;
+}
+.officeTable .tBody .tr2 .td_1 {
+    width: 252px;
+}
+
+
+.officeTable .tBody .tr2.atm-top .td_1 {
+    padding-left: 40px !important;
+    width: 220px;
+
+    /* padding: 20px 0 20px 27px; */
+}
+
+.officeTable.moskowAtm .tBody .tr2.atm-top .td_1 {
+    padding-left: 22px !important;
+}
+
+
+.officeTable .tr2.atm-top .td_1 a {
+    border-bottom: solid 1px #00658b;
+    color: #00658b !important;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.branches-type .officeTable .tr2.atm-top .td_1 {
+    padding-left: 27px !important;
+}
+/* End */
+/* /local/components/aic.robotics/atm.top.block/templates/.default/style.css?1468498729823 */
