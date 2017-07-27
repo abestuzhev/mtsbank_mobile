@@ -4024,7 +4024,7 @@ tr.first-row-nohover td {
 .atmTable .th1,
 .atmTable .td1 {
     width: 295px;
-    padding-left: 40px !important;
+    padding-left: 40px;
 }
 .atmTable .th2,
 .atmTable .td2 {
@@ -12922,6 +12922,8 @@ span.selectedText {
     width: 924px;
     padding-top: 0;
     background: url(../img/bg-tow-long.png) repeat-y;
+    /*background: #f1f1f1;*/
+
 }
 .table-long .top {
     width: 997px;

@@ -1,0 +1,33 @@
+/* Start:/bitrix/components/aic.robotics/howpay.list/templates/.default/style.css?1386663676578*/
+.howpay-body th {
+    font-weight: bold !important;
+}
+.howpay-body td {
+    line-height: 18px;
+    vertical-align: top;
+}
+.howpay-body .howpay-body-logo {
+    display: block;
+    padding-bottom: 10px
+}
+.howpay-body .howpay-body-method {
+    display: block;
+    /*padding-bottom: 18px;*/
+}
+.howpay-body .howpay-body-enrollment {
+    display: block;
+    padding: 2px 0 8px 30px;
+    height: 20px;
+    background: url(../img/icon_time.png) 0 0 no-repeat;
+}
+.howpay-body ul.bulletList {
+    margin: 0 0 10px 0 !important;
+}
+.howpay-body ul.bulletList li {
+    margin-bottom: 3px;
+}
+.howpay-body .small {
+    font-size: 11px;
+}
+/* End */
+/* /bitrix/components/aic.robotics/howpay.list/templates/.default/style.css?1386663676578 */

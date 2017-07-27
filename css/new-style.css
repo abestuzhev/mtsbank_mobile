@@ -138,16 +138,17 @@
 }
 */
 
-.tabsBlock ul {
+.tabsBlockWrapper .tabsBlock ul {
     margin-right: 20px;
+    margin-bottom: 4px !important;
     float: left;
 }
-/*.tabsBlock li {*/
-    /*margin-right: 24px;*/
-    /*list-style: none;*/
-    /*float: left;*/
-    /*position: relative;*/
-/*}*/
+.tabsBlockWrapper .tabsBlock li {
+    margin-right: 24px;
+    list-style: none;
+    float: left;
+    position: relative;
+}
 .tabsBlock li:first-child {
     margin-left: 0;
 }
@@ -229,6 +230,10 @@
 }
 .howToShow {
     float: left;
+    margin: 0 20px 0 0 !important;
+}
+
+.howToShow + ul {
     margin: 0 !important;
 }
 

@@ -22,7 +22,12 @@
     }
 }
 
-/***1010px***/
+@media screen and (max-width: 1340px) {
+    .pageWrapper .beMobile {
+        display: none;
+    }
+}
+    /***1010px***/
 
 @media screen and (max-width: 1010px) {
 
@@ -55,6 +60,9 @@
         display: block;
         float: none;
         padding: 0 18px 18px;
+    }
+    #outerWrapper .contentBlock {
+        padding: 0;
     }
 
     /*слайдер*/
@@ -194,7 +202,7 @@
         box-sizing: border-box;
     }
 
-    .beMobile,
+
     .copyrights_text,
     .developers,
     .developers a {
@@ -243,6 +251,99 @@
     .monthWrapper {
         width: 100%;
     }
+
+    /*офисы в вижде таблицы*/
+    #atmsTable * {
+        box-sizing: border-box;
+    }
+
+    #atmsTable .table-container {
+        margin: 0 !important;
+    }
+
+    .moskowOffice, .moskowAtm {
+        width: 100%;
+    }
+
+    .officeTable .tHead {
+        background-image: none;
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 70%, rgba(245,245,245,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(245,245,245,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 50%, rgba(245,245,245,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 70%, rgba(245,245,245,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 70%, rgba(245,245,245,1) 100%);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(245,245,245,1) 100%);
+        width: auto;
+    }
+
+    #atmsTable .table-long .table-outer-wrapper,
+    .table-long {
+        width: 100%;
+    }
+
+    /*офисы в отдельном городе*/
+    #asideLeft {
+        width: 100%;
+        float: none;
+    }
+
+    #asideLeft .officeList {
+        margin-bottom: 20px;
+    }
+
+    .table-middle,
+    .table-middle .table-outer-wrapper,
+    #atmsTable .table-middle .table-wrapper,
+    #atmsTable .table-middle .atmTable,
+    #atmsTable .table-middle .officeTable .tHead {
+        width: 100% !important;
+    }
+
+    .officeList dd {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    /*адаптив table*/
+    .table-long .table-outer-wrapper {
+        width: 100%;
+    }
+    .table-wrapper table,
+    .table-wrapper tr,
+    .table-wrapper tbody,
+    .table-wrapper thead {
+        width: 100%;
+    }
+
+
+
+    .table-wrapper td {
+        width: 25%;
+    }
+    .table-wrapper tr.first {
+        width: 0;
+    }
+
+    .table-long .table-outer-wrapper {
+        width: 100%;
+        padding: 0;
+        background: #f1f1f1;
+    }
+
+    .table-long .top,
+    .table-long .bottom {
+        display: none;
+    }
+
+    .table-long {
+        margin: 0;
+    }
+    #outerWrapper .contentBlock {
+        width: 100%;
+        display: block;
+    }
+
 }
 
 /***980px***/
@@ -368,6 +469,25 @@
 
     .tabs {
         margin: 0 !important;
+    }
+
+    /*таблица офисы*/
+    .officeTable .tHead {
+        display: none;
+    }
+
+    .officeTable .tBody .tr .td1 {
+        float: none;
+        width: 100% !important;
+    }
+
+
+    .tabs .active::after {
+        content: '';
+        display: none;
+    }
+    .tab1 {
+        background: none;
     }
 }
 
@@ -496,9 +616,52 @@
         margin: 0 !important;
     }
 
+    .metroIcon img {
+        width: auto !important;
+        margin: 0 2px 5px 0 !important;
+    }
+
+    .officeTable .tBody .tr2 .td_1 {
+        float: none;
+    }
+
+    .table-wrapper img.howpay-body-logo {
+        width: auto;
+        margin: 0 !important;
+    }
 }
 
-/***640px***/
+@media screen and (max-width: 670px) {
+    .officeTable .tBody .tr div,
+    .moskowOffice .td3 div,
+    .officeTable .tBody .tr2 .td2wide,
+    .contentBlock .officeTable .tr2.atm-top .td_1 {
+        float: none;
+        width: 100% !important;
+        padding: 14px 0 14px 14px;
+    }
+
+    .officeTable .tBody .tr .td2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .table-wrapper thead {
+        display: none;
+    }
+
+    .table-wrapper td,
+    .table-wrapper tbody {
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+    .table-wrapper tbody {
+    }
+}
+
+    /***640px***/
 
 @media screen and (max-width: 640px) {
     /*слайдер*/
@@ -623,9 +786,9 @@
     .citysearchForm {
         margin-top: 6px;
     }
-    .tabs .active::after {
-        content: '';
-        display: none;
+
+    .howToShow {
+        margin: 0 10px 8px 0 !important;
     }
 }
 

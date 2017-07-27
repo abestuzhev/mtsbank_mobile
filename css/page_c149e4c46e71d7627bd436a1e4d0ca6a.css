@@ -1,6 +1,6 @@
 
 
-/* Start:/local/components/aic.robotics/atm.top.block/templates/.default/style.css?1468498729823*/
+/* Start:/bitrix/templates/.default/components/aic.robotics/atm.top.block/template1/style.css?1482923031823*/
 .officeTable .tBody .tr2 {
     border-bottom: 1px solid #c4c4c4;
     overflow: hidden;
@@ -28,7 +28,7 @@
 
 
 .officeTable .tBody .tr2.atm-top .td_1 {
-    padding-left: 40px;
+    padding-left: 40px !important;
     width: 220px;
 
     /* padding: 20px 0 20px 27px; */
@@ -48,7 +48,7 @@
 }
 
 .branches-type .officeTable .tr2.atm-top .td_1 {
-    padding-left: 27px;
+    padding-left: 27px !important;
 }
 /* End */
-/* /local/components/aic.robotics/atm.top.block/templates/.default/style.css?1468498729823 */
+/* /bitrix/templates/.default/components/aic.robotics/atm.top.block/template1/style.css?1482923031823 */
