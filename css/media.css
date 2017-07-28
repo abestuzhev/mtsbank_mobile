@@ -22,6 +22,12 @@
     }
 }
 
+@media screen and (max-width: 2500px) {
+    .hideBlock .column, .popUp .all-services-popup .column {
+        padding-left: 0;
+    }
+}
+
 @media screen and (max-width: 1340px) {
     .pageWrapper .beMobile {
         display: none;
@@ -35,6 +41,17 @@
     #header {
         width: 100%;
         height: auto;
+    }
+
+    .depPlusCard {
+        float: left;
+    }
+
+    .cardAction, .depPlusCard {
+        margin: 10px 0 0;
+        box-sizing: border-box;
+        width: 286px;
+        height: 110px;
     }
 
     #header .buttons {
@@ -60,9 +77,6 @@
         display: block;
         float: none;
         padding: 0 18px 18px;
-    }
-    #outerWrapper .contentBlock {
-        padding: 0;
     }
 
     /*слайдер*/
@@ -342,6 +356,12 @@
     #outerWrapper .contentBlock {
         width: 100%;
         display: block;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .table-wrapper table {
+        margin-bottom: 20px !important;
     }
 
 }
@@ -575,6 +595,10 @@
 /***740px***/
 
 @media screen and (max-width: 740px) {
+    .columns {
+        margin: 0;
+    }
+
     .servicesAndActions .indexPromoBlock,
     .servicesAndActions .indexPromoBlock:first-child {
         width: 96%;
@@ -610,6 +634,11 @@
         margin: 20px !important;
     }
 
+    .contentBlock .cardVklad img {
+        width: auto;
+        display: none;
+    }
+
     .contentBlock .column img {
         width: auto;
         height: auto;
@@ -628,6 +657,27 @@
     .table-wrapper img.howpay-body-logo {
         width: auto;
         margin: 0 !important;
+    }
+
+    .depositInfoTable,
+    .tableWithColoredFirstCol {
+        width: 100%;
+    }
+    .depositInfoTable .td1,
+    .depositInfoTable td,
+    .tableWithColoredFirstCol td {
+        width: 100%;
+        display: block;
+    }
+    .cardVklad .greyBlockWrapper {
+        width: 100%;
+    }
+
+    .greyBlockWrapper .promoblock-shorter-wrapper {
+        width: 100%;
+    }
+    .btn-wrapper {
+        text-align: center;
     }
 }
 
@@ -655,9 +705,23 @@
         width: 100%;
         display: block;
         padding: 10px;
+        text-align: left !important;
     }
 
     .table-wrapper tbody {
+    }
+
+    .table-wrapper td {
+        border: none;
+    }
+    .table-wrapper tr {
+        border-bottom: 1px solid #c4c4c4;
+    }
+
+    .footerButtons {
+        height: auto;
+        width: 100%;
+        margin: 20px 0 0;
     }
 }
 
@@ -802,7 +866,6 @@
         height: auto;
     }
 
-
     #header .buttons {
         width: 100%;
         position: relative;
@@ -858,7 +921,15 @@
     .mainNav a.active {
         background-color: #118f9e;
     }
-
+    .cardAction, .depPlusCard {
+        width: 100%;
+    }
+    .cardAction p, .depPlusCard p {
+        font-size: 12px;
+    }
+    .promoblock-shorter .btn {
+        margin-bottom: 10px;
+    }
 }
 
 /***520px***/
