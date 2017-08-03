@@ -909,6 +909,24 @@
     .mainNav {
         overflow: scroll;
         padding: 0;
+        position: relative;
+    }
+    .mainNavWrapper::after {
+        content: '';
+        position: absolute;
+        z-index: 9999;
+        right: 0;
+        top: 4px;
+        width: 50px;
+        height: 36px;
+        background: rgba(255,255,255,0);
+        background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 99%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(99%, rgba(0,0,0,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 99%);
+        background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 99%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 99%);
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 99%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=1 );
     }
     .mainNav ul {
         width: 549px;

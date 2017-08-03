@@ -6,20 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b1134af-41f9-41ea-9160-16fc59c5843a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards-credit.html" afterPath="$PROJECT_DIR$/cards-credit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards-debet.html" afterPath="$PROJECT_DIR$/cards-debet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards-virtual.html" afterPath="$PROJECT_DIR$/cards-virtual.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collateral.html" afterPath="$PROJECT_DIR$/collateral.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/credit-refinancing.html" afterPath="$PROJECT_DIR$/credit-refinancing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-cards.html" afterPath="$PROJECT_DIR$/personal-cards.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-credit.html" afterPath="$PROJECT_DIR$/personal-credit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-deposits.html" afterPath="$PROJECT_DIR$/personal-deposits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-remote.html" afterPath="$PROJECT_DIR$/personal-remote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remote-howpay.html" afterPath="$PROJECT_DIR$/remote-howpay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remote-mobile.html" afterPath="$PROJECT_DIR$/remote-mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remote-sms.html" afterPath="$PROJECT_DIR$/remote-sms.html" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +49,8 @@
       <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="741" column="23" selection-start-line="741" selection-start-column="23" selection-end-line="741" selection-end-column="23" />
+            <state relative-caret-position="738">
+              <caret line="928" column="125" selection-start-line="928" selection-start-column="125" selection-end-line="928" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -148,7 +135,6 @@
         <option value="$PROJECT_DIR$/personal-cards.html" />
         <option value="$PROJECT_DIR$/remote-sms.html" />
         <option value="$PROJECT_DIR$/cards-debet.html" />
-        <option value="$PROJECT_DIR$/css/media.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/cards-credit.html" />
         <option value="$PROJECT_DIR$/cards-virtual.html" />
@@ -157,6 +143,7 @@
         <option value="$PROJECT_DIR$/personal-credit.html" />
         <option value="$PROJECT_DIR$/remote-howpay.html" />
         <option value="$PROJECT_DIR$/remote-mobile.html" />
+        <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
   </component>
@@ -384,12 +371,12 @@
       <workItem from="1501051226034" duration="1799000" />
       <workItem from="1501169477086" duration="12840000" />
       <workItem from="1501228723096" duration="4690000" />
-      <workItem from="1501748020840" duration="7752000" />
+      <workItem from="1501748020840" duration="8284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93379000" />
+    <option name="totallyTimeSpent" value="93911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -1628,8 +1615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="741" column="23" selection-start-line="741" selection-start-column="23" selection-end-line="741" selection-end-column="23" />
+        <state relative-caret-position="738">
+          <caret line="928" column="125" selection-start-line="928" selection-start-column="125" selection-end-line="928" selection-end-column="125" />
           <folding />
         </state>
       </provider>
