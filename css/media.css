@@ -229,7 +229,7 @@
 
     /*article (внутренние страницы)*/
     #article #asideRight {
-        margin-right: 20px;
+        margin-left: 20px;
     }
 
     #article #asideRight::after {
@@ -364,6 +364,19 @@
         margin-bottom: 20px !important;
     }
 
+    .hided::after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .promoblock-short-wrapper.tork {
+        width: 44%;
+    }
+    .promoblock-short {
+        padding: 25px;
+        margin: 0;
+    }
 }
 
 /***980px***/
@@ -415,6 +428,9 @@
         width: 100%;
         box-sizing: border-box;
     }
+    .hideBlock {
+        display: none;
+    }
     .hideBlockOuterWrapper {
         padding-right: 16px;
     }
@@ -433,6 +449,13 @@
     .hideBlockFooter > div {
         margin-bottom: 10px;
         float: left !important;
+    }
+    .cardVklad .fr {
+        float: none !important;
+        margin: 0 !important;
+    }
+    .cardVklad .tableWithColoredFirstCol {
+        width: 100%;
     }
 }
 
@@ -536,12 +559,20 @@
         display: none !important;
     }
 
+    .imgWrapper {
+        height: 134px;
+    }
+
     .imgWrapper img {
         float: none;
+        height: 100%;
     }
     .vaHolder {
         padding: 0;
         margin-bottom: 10px;
+    }
+    #article .vaInner h3{
+        margin-bottom: 10px !important;
     }
 }
 
@@ -629,7 +660,7 @@
     }
 
     .contentBlock img {
-        width: 100%;
+        width: auto;
         height: auto;
         margin: 20px !important;
     }
@@ -661,7 +692,7 @@
 
     .depositInfoTable,
     .tableWithColoredFirstCol {
-        width: 100%;
+        width: 100% !important;
     }
     .depositInfoTable .td1,
     .depositInfoTable td,
@@ -678,6 +709,10 @@
     }
     .btn-wrapper {
         text-align: center;
+    }
+
+    .promoblock-short-wrapper.tork .mobLogo {
+        margin: 0 !important;
     }
 }
 
@@ -721,7 +756,22 @@
     .footerButtons {
         height: auto;
         width: 100%;
-        margin: 20px 0 0;
+        margin: 7px 0 0;
+    }
+
+    .remoteInternetImg {
+        margin: 0px 0 -9px 0px;
+        position: relative;
+        left: -35px;
+    }
+
+    .promoblock-short-wrapper.tork {
+        display: block;
+        float: none;
+        width: auto;
+        height: auto;
+        margin-top: 70px;
+        margin-right: 0;
     }
 }
 
@@ -815,13 +865,6 @@
     .slide-link {
         display: block;
     }
-    .promoblock-short-wrapper.tork {
-        display: block;
-        float: none;
-        width: auto;
-        height: auto;
-        margin-top: 70px;
-    }
     .hided {
         padding-right: 16px;
     }
@@ -859,6 +902,26 @@
 /***560px***/
 
 @media screen and (max-width: 560px) {
+    .mainNavWrapper {
+        overflow: hidden;
+        height: 37px;
+    }
+    .mainNav {
+        overflow: scroll;
+        padding: 0;
+    }
+    .mainNav ul {
+        width: 549px;
+    }
+    .mainNav li {
+        margin-right: 10px;
+        float: left;
+        width: auto !important;
+    }
+    .mainNav a {
+        padding: 10px 3px;
+    }
+
     .logo,
     .officeAtmBlock,
     #header {
@@ -913,11 +976,6 @@
     }
 
 
-    .mainNav li {
-        float: none;
-        width: 100% !important;
-    }
-
     .mainNav a.active {
         background-color: #118f9e;
     }
@@ -929,6 +987,10 @@
     }
     .promoblock-shorter .btn {
         margin-bottom: 10px;
+    }
+
+    .promoblock-short h4 {
+        font-size: 16px !important;
     }
 }
 
