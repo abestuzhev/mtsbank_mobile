@@ -229,7 +229,7 @@
 
     /*article (внутренние страницы)*/
     #article #asideRight {
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     #article #asideRight::after {
@@ -428,9 +428,9 @@
         width: 100%;
         box-sizing: border-box;
     }
-    .hideBlock {
-        display: none;
-    }
+    /*.hideBlock {*/
+        /*display: none !important;*/
+    /*}*/
     .hideBlockOuterWrapper {
         padding-right: 16px;
     }
@@ -620,6 +620,10 @@
     }
     .subHeader {
         padding: 0;
+    }
+
+    .cardDebetImg {
+        display: block;
     }
 }
 
