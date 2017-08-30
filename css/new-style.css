@@ -256,3 +256,9 @@
 .howToShow li:last-child {
     margin-right: 0;
 }
+
+
+
+#jqSecondMenu {
+  overflow-y: scroll;
+}
