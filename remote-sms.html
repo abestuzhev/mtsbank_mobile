@@ -38,6 +38,7 @@
 		<link href="css/template_85aaa7372f21f833819a33d97a1b7eb0.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 
 		<link href="css/media.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+		<link href="css/new-media.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 
 
 		<!--<script type="text/javascript" src="js/template_302123d7fcd4d4ab33d9543601abb49e.js"></script>-->
@@ -1101,84 +1102,83 @@ var searchObj = {"union, china":{"261262":{"ITEMS":[{"NAME":"\u041a\u0430\u0440\
 
 </ol>
 
-<span>* номер 2121 – для абонентов МТС, Мегафон, Билайн, Теле2. +79167773331 – для все абонентов.</span><br>
+<span>* номер 2121 – для абонентов сотовых операторов МТС, Мегафон, Билайн, Теле2 при нахождении в домашнем регионе. Номер +79167773331 – для абонентов других сотовых операторов. Плата за сообщения на номер +79167773331 устанавливается согласно тарифам сотового оператора.
+</span><br>
 <br><br>
-
-<img src="img/sms.png" style="margin-left: -10px; margin-bottom: 20px; max-width: 50%;">
-
-
 <br><br>
 <h3>Перечень SMS-команд:</h3>
+							<div class="table-wrapper rounded" style="position: relative;">
+								<table class="tableWithColoredFirstCol">
+									<tbody>
+									<tr>
+										<td style="font-size: 14px;color: #000;"><b>SMS-команда</b></td> <td style="font-size: 14px;color: #000;"><b>Совершаемая операция</b></td>
+									</tr>
+									<tr>
+										<td class="td1">СПРАВКА</td> <td>Справка о доступных командах</td>
+									</tr>
+									<tr>
+										<td class="td1">БАЛАНС 1234</td> <td>Справка о доступном платежном лимите</td>
+									</tr>
+									<tr>
+										<td class="td1">КРЕДИТ 1234</td> <td>Информация по кредитной карте</td>
+									</tr>
+									<tr>
+										<td class="td1">123456789 n 1234</td> <td>Пополнение счета телефона</td>
+									</tr>
+									<tr>
+										<td class="td1">ВЫПИСКА 1234</td> <td>Предоставление мини-выписки по карте</td>
+									</tr>
+									<tr>
+										<td class="td1">СТОП / БЛОКИРОВКА 1234</td> <td>Приостановление расчетов по карте</td>
+									</tr>
+									<tr>
+										<td class="td1">СТОП /  РАЗБЛОКИРОВКА 1234</td> <td>Отмена приостановления расчетов по карте</td>
+									</tr>
+									<tr>
+										<td class="td1">КАРТЫ</td> <td>Информация о картах, по которым оказываются услуги</td>
+									</tr>
+									<tr>
+										<td class="td1">СТАТУС 1234</td> <td>Справка о статусе карты</td>
+									</tr>
+									<tr>
+										<td class="td1">ПОКУПКИ&nbsp; 1234</td> <td>Информация о последних 3 платежах за прошедшие 30 дней</td>
+									</tr>
+									<tr>
+										<td class="td1">НАЛИЧНЫЕ 1234</td> <td>Информация о последних 3 операциях получения наличных за прошедшие 30 дней</td>
+									</tr>
+									<tr>
+										<td class="td1">КУРС </td> <td>Справка о текущем курсе ЦБ (EUR и USD)</td>
+									</tr>
+									<tr>
+										<td class="td1">КУРС БАНКА </td> <td>Справка о текущем курсе авторизации Банка </td>
+									</tr>
+									<tr>
+										<td class="td1">АВТОПЛАТЕЖ 1234 n 1234567890</td> <td>Подключение МТС Автоплатежа</td>
+									</tr>
+									<tr>
+										<td class="td1">АВТОИЗМТС 1234 n 1234567890</td> <td>Изменение суммы Автоплатежа</td>
+									</tr>
+									<tr>
+										<td class="td1">СТОПМТСАВТО 1234 1234567890</td> <td>Остановка сервиса автоплатежей</td>
+									</tr>
+									<tr>
+										<td class="td1">ПОПОЛНИТЬ n 1234</td> <td>Перевод со счета карты на счет «Накопительный» (применимо только для карт с накопительной опцией)</td>
+									</tr>
+									<tr>
+										<td class="td1">ВЫВЕСТИ&nbsp; n 1234</td> <td>Перевод со счета «Накопительный» на счет карты (применимо только для карт с накопительной опцией)</td>
+									</tr>
+									</tbody>
+								</table>
+								<img class="sms-img" src="./img/sms.png" style="position: absolute; top: 0; right: -500px; max-width: 450px; height: auto;">
+							</div>
+							<br>
+							<span><em>1234 - последние 4 цифры номера карты <br>
+                    1234567890 – номер мобильного телефона в 10-значном (федеральном) формате
+                    n – сумма в валюте счета карты
+                    PPP – наименование Интернет-провайдера </em>
+</span>
 
-<table class="tableWithColoredFirstCol">
-    <tbody>
-        <tr>
-            <td class="td1"><b>SMS-команда</b></td> <td><b>Совершаемая операция</b></td>
-        </tr>
-        <tr>
-            <td class="td1">СПРАВКА</td> <td>Справка о доступных командах</td>
-        </tr>
-        <tr>
-            <td class="td1">БАЛАНС ****</td> <td>Справка о доступном платежном лимите</td>
-        </tr>
-        <tr>
-            <td class="td1">КРЕДИТ ****</td> <td>Информация по кредитной карте</td>
-        </tr>
-        <tr>
-            <td class="td1">123456789 n ****</td> <td>Пополнение счета телефона</td>
-        </tr>
-        <tr>
-            <td class="td1">ВЫПИСКА ****</td> <td>Предоставление мини-выписки по карте</td>
-        </tr>
-        <tr>
-            <td class="td1">СТОП / БЛОКИРОВКА ****</td> <td>Приостановление расчетов по карте</td>
-        </tr>
-        <tr>
-            <td class="td1">СТОП /  РАЗБЛОКИРОВКА ****</td> <td>Отмена приостановления расчетов по карте</td>
-        </tr>
-        <tr>
-            <td class="td1">КАРТЫ</td> <td>Информация о картах, по которым оказываются услуги</td>
-        </tr>
-        <tr>
-            <td class="td1">СТАТУС ****</td> <td>Справка о статусе карты</td>
-        </tr>
-        <tr>
-            <td class="td1">ПОКУПКИ&nbsp; ****</td> <td>Информация о последних 3 платежах за прошедшие 30 дней</td>
-        </tr>
-        <tr>
-            <td class="td1">НАЛИЧНЫЕ ****</td> <td>Информация о последних 3 операциях получения наличных за прошедшие 30 дней</td>
-        </tr>
-        <tr>
-            <td class="td1">КУРС </td> <td>Справка о текущем курсе ЦБ (EUR и USD)</td>
-        </tr>
-        <tr>
-            <td class="td1">КУРС БАНКА </td> <td>Справка о текущем курсе авторизации Банка </td>
-        </tr>
-        <tr>
-            <td class="td1">АВТОПЛАТЕЖ **** n 1234567890</td> <td>Подключение МТС Автоплатежа</td>
-        </tr>
-        <tr>
-            <td class="td1">АВТОИЗМТС **** n 1234567890</td> <td>Изменение суммы Автоплатежа</td>
-        </tr>
-        <tr>
-            <td class="td1">СТОПМТСАВТО **** 1234567890</td> <td>Остановка сервиса автоплатежей</td>
-        </tr>
-        <tr>
-            <td class="td1">ПОПОЛНИТЬ n ****</td> <td>Перевод со счета карты на счет «Накопительный» (применимо только для карт с накопительной опцией)</td>
-        </tr>
-        <tr>
-            <td class="td1">ВЫВЕСТИ&nbsp; n ****</td> <td>Перевод со счета «Накопительный» на счет карты (применимо только для карт с накопительной опцией)</td>
-        </tr>
-        <tr>
-            <td class="td1"></td> <td><em>**** - последние 4 цифры номера карты <br>
-                                        1234567890 – номер мобильного телефона в 10-значном (федеральном) формате
-                                        n – сумма в валюте счета карты
-                                        PPP – наименование Интернет-провайдера </em></td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
+<br><br><br>
 <p><span class="fileIco pdfIco"><a href="/upload/content/personal/remote/sms/Tarif SMS-Bank-Info.pdf" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Tarif SMS-Bank-Info.pdf']);" target="_blank">Тарифы SMS-Банк-Инфо</a><span>(PDF, 191 КБ)</span></span> </p>
     <p><span class="fileIco pdfIco"><a href="/upload/content/personal/remote/sms/DBO.pdf" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'DBO.pdf']);" target="_blank"> Условия предоставления услуг систем дистанционного банковского обслуживания</a><span>(PDF, 191 КБ)</span></span> </p>
 

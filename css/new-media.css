@@ -1,0 +1,117 @@
+/**********************************
+Главная
+**********************************/
+
+@media screen and (max-width: 640px){
+    /*увеличиваем высоту слайдера*/
+    .mainSliderWrapper {
+        height: 400px;
+    }
+
+    .bannerWrapper .content {
+        box-sizing: border-box;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 560px){
+    .mainSliderWrapper {
+        height: 500px;
+    }
+    .bannerWrapper .title {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .bannerWrapper .banner .content h3 {
+        font-size: 24px !important;
+        line-height: 1.2;
+    }
+
+    .banner .content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerWrapper .buttons a:first-child {
+        margin-bottom: 4px;
+    }
+
+    .titleWrapper h1 {
+        font-size: 30px;
+    }
+
+    #article h2 {
+        font-size: 24px !important;
+    }
+
+    .depositIntro {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .depositIndex {
+        min-height: auto !important;
+        margin-bottom: 16px !important;
+    }
+
+}
+
+
+/**********************************
+Интерактивный СМС-сервис
+**********************************/
+
+/*добавляем класс .sms-img для картинки, иначе не заадаптивить*/
+@media screen and (max-width: 1560px) {
+    .sms-img {
+        max-width: 380px !important;
+        right: auto;
+        left: 102%;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .sms-img {
+        max-width: 300px !important;
+    }
+}
+
+/**********************************
+Потребительские кредиты
+**********************************/
+@media screen and (max-width: 900px) and (min-width: 520px) {
+    .minibanner-container .column-row {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .btn-wrapper a {
+        margin: 0 0 10px;
+    }
+    .btn-right a, .btn-left a {
+        float: none;
+    }
+}
+
+/**********************************
+Кредитные карты для зарплатных клиентов
+**********************************/
+@media screen and (max-width: 780px) {
+    .cardVklad .greyBlockWrapper .promoblock-shorter {
+        padding: 20px 0 !important;
+    }
+    .cardVklad .greyBlockWrapper .promoblock-shorter .btn-wrapper {
+        margin: 0;
+    }
+
+    .cardVklad + .table,
+    .cardVklad + .table tbody,
+    .cardVklad + .table tr,
+    .cardVklad + .table td {
+        display: block;
+        width: 100%;
+    }
+}
